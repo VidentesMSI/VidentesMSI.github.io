@@ -1,7 +1,7 @@
 ---
 title: Videntes. A Multispectral Imaging Collective 
 layout: homepage
-permalink: /
+permalink: 
 pullquote: 
 quoteattribution: 
 ---
