@@ -42,10 +42,10 @@ repository: 'idahatiu/idahatiu.github.io' # change this to your repository name
 #---------------------
 
 # Title of your website
-title: "IDAH@IU"
+title: "Videntes"
 
 # Subtitle of your website. Leave blank if you want to.
-subtitle: "An Archive of Our Community's Heirlooms"
+subtitle: "A Multispectral Imaging Collective"
 
 # A longer description of your site (max 150 words). Helps search engines find you.
 description: "Community Archiving Site"
@@ -60,11 +60,11 @@ sitelogo: "site_logo.jpg"
 sitedate : 2022
 
 # Other community social media. Leave blank if you don't have these.
-email : "idah [at] iu.edu"
-website : "https://idah.indiana.edu/"
-twitter : "IDAH_IU"
-github : "idahatiu"
-facebook : "idahatiu"
+email : "VidentesMSI [at] gmail.com"
+website : "https://VidentesMSI.github.io"
+twitter : "VidentesMSI"
+github : "VidentesMSI"
+facebook : 
 instagram : 
 
 # If you need to know how many people visit your site, go to https://analytics.google.com/
@@ -79,12 +79,12 @@ google_g4_analytics_id:
 # You can see these font choices in action at https://community-archive.kalanicraig.com/docs/
 # Uncomment the line for the font you like. Comment out all of the other lines.
 
-#fontchoice: archivonarrow # A narrow sans-serif font for headlines and body text
+fontchoice: archivonarrow # A narrow sans-serif font for headlines and body text
 #fontchoice: baloo # A clean sans-serif font with a playful rounded sans-serif accent
 #fontchoice: quattrocento # A modern sans-serif font with classic serif accents
 #fontchoice: raleway # An elegant sans-serif font with bold sans-serif accents
 #fontchoice: roboto # A clean sans-serif font with simple serif accents
-fontchoice: slab # A funky slab font with clean sans-serif accents
+#fontchoice: slab # A funky slab font with clean sans-serif accents
 #fontchoice: source # A modern serif font with clean sans-serif accents
 
 # Choose the COLORS you'd like to use.
