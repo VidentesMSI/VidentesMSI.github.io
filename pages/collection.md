@@ -1,5 +1,5 @@
 ---
-title: Our Collection
+title: What we are Seeing.
 layout: collection
 permalink: /collection
 ---
