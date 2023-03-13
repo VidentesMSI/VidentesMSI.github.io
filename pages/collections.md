@@ -1,7 +1,7 @@
 ---
 title: What do we See?
 layout: collection
-permalink: /seeing
+permalink: /collection
 ---
 
 {{site.description}}
