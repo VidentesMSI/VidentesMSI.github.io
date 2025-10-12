@@ -1,17 +1,57 @@
 ---
-title: IDAH Community Archiving Template
-layout: homepage
+title: Videntes MultiSpectral Imaging Collective
+layout: page
 permalink: /
 ---
 
-The Archiving Out of the Box team supports community storytelling with a  digital archiving and storytelling kit. This demo site has examples of 3 different kinds of community contributions: scanned/screencaptured documents, photos of objects, and vidoes.
+<div class="grid-container">
+<div class="grid-x grid-padding-x grid-margin-x">
 
-Visit our main site for information on how to build relationships, hold community-storytelling collection events, build the collection using our template site, and use community stories for practical community-improvement projects.
+<div class="juxtapose">
+<img src="{{ site.urlimg }}MappaMundi/CloseUp.jpg" data-label="Vercelli Mappa Mundi before MSI processing" alt="Before" />
+<img src="{{ site.urlimg }}MappaMundi/CloseUpPCA.jpg" data-label="Vercelli Mappa Mundi after MSI processing" alt="After" />
+</div>
+</div>
+</div>
 
-Our team got its start at the [Institute for Digital Arts and Humanities](https://idah.indiana.edu/) at Indiana University Bloomington and is now funded by the [Digital Justice Development Grant program at the American Council on Learned Societies](https://www.acls.org/recent-fellows/?program_id=40090&_project_year=2024).
 
-Principal Project Team:
-- Michelle Dalmau
-- Vanessa Elias
-- Kalani Craig
-- Jazma Sutton
+
+<div class="grid-container">
+	<div class="grid-x grid-padding-x grid-margin-x">
+
+<div role="link" aria-label="Codex C Under Blue Light thumbnail" data-categories="Codex C, MSI, Processing Equipment" data-formats="document" class="cell filter-item small-12 medium-6 large-4 card filter-simple-item">
+<div class="card-thumbnail">
+<img class="square thumbnail" src="{{ site.urlimg }}CodexC/ProcessingBlueLight.jpg" alt="">
+</div>
+
+<h3 class="card-title accentbg"><a href="/items/Item-1-document.html">Vercelli Codex C in Blue Light</a></h3>
+</div>
+
+
+
+<div role="link" aria-label="Codex C Under Blue Light thumbnail" data-categories="Codex C, MSI, Processing Equipment" data-formats="document" class="cell filter-item small-12 medium-6 large-4 card filter-simple-item">
+<div class="card-thumbnail">
+<img class="square thumbnail" src="{{ site.urlimg }}CodexC/ProcessingBlueLight.jpg" alt="">
+</div>
+
+<h3 class="card-title accentbg"><a href="/items/Item-1-document.html">Vercelli Codex C in Blue Light</a></h3>
+</div>
+
+
+
+
+<div role="link" aria-label="Codex C Under Blue Light thumbnail" data-categories="Codex C, MSI, Processing Equipment" data-formats="document" class="cell filter-item small-12 medium-6 large-4 card filter-simple-item">
+<div class="card-thumbnail">
+<img class="square thumbnail" src="{{ site.urlimg }}CodexC/ProcessingBlueLight.jpg" alt="">
+</div>
+
+<h3 class="card-title accentbg"><a href="/items/Item-1-document.html">Vercelli Codex C in Blue Light</a></h3>
+</div>
+
+
+
+
+
+
+</div>
+</div>

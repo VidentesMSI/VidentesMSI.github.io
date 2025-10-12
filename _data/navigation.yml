@@ -1,11 +1,26 @@
 # Site navigation links
 
-- title: Our Community
+- title: Videntes MSI
   url: /
   excerpt:
   image:
 
-- title: Our Collection
-  url: /collection
+- title: Team
+  url: /team
+  excerpt:
+  image:
+
+- title: News & Publications
+  url: /news
+  excerpt:
+  image:
+
+- title: Workshops & Events
+  url: /events
+  excerpt:
+  image:
+
+- title: Vercelli
+  url: /vercelli
   excerpt:
   image:
