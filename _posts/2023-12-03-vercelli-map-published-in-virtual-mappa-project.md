@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Vercelli Map Published in Virtual Mappa Project
-excerpt: 
-The Virtual Mappa project now holds the publication of the badly-damaged thirteenth-century Vercelli Map. 
+title: "Vercelli Map Published in Virtual Mappa Project"
+date: "2022-12-03 02:00:00"
+excerpt: "The Virtual Mappa project now holds the publication of the badly-damaged thirteenth-century Vercelli Map."
 author: heather-wacha
 ---
 

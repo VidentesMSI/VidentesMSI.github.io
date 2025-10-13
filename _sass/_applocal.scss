@@ -1,0 +1,47 @@
+	a {
+		border-bottom: 1px dotted;
+		text-decoration: none;
+	}
+
+	.accent-bg {
+	  background-color: lighten($main-link, 73%);
+	  margin-bottom:1rem;
+	}
+
+	h1, .h1 {
+		font-weight: 800;
+		text-transform: none;
+	}
+
+	h2, .h2 {
+		font-weight: 600;
+		text-transform: none;
+	}
+
+	.post-meta a {
+		color: lighten($main-link, 45%);
+	}
+
+	.meta {
+		color: lighten($main-text-color, 55%);
+		display: inline-block;
+		padding-right: 1.3125rem;
+	}
+
+	.post-read-more {
+		display: block;
+		font-size: 0.875rem;
+	}
+
+	.post-summary p {
+		padding: 0 0 0 1.3125rem;
+	}
+
+	.bio {
+		clear:both;
+	}
+
+	.biophoto {
+		float:right;
+		width:300px;
+	}

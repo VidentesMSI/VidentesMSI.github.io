@@ -1,29 +1,36 @@
-# List of authors
-
-- name: helen-davies
+helen-davies:
   display_name: Helen Davies
   avatar: TeamInAction/helen_imaging-edited.jpg
   permalink: author/helen-davies/
   bio: "Dr. Helen Davies is an assistant professor of the Digital Humanities at the University of Colorado Colorado Springs where she teaches medieval literature and the digital humanities. She co-founded and now co-directs the Center for Research Frontiers in the Digital Humanities at UCCS. Helen’s research focuses on the intersection of the medieval and the digital humanities with an emphasis in multispectral imaging and historic cartography. Davies helped organize and project manage the [Lazarus Project](https://lazarusprojectimaging.com/), a multispectral imaging cultural heritage recovery initiative, for six years on work throughout the US and Europe. There she helped with data collection, image processing, and training new interns. Davies helped organize and run [R-CHIVE](https://r-chive.com/), an international multispectral imaging initiative, including their conferences for four years. Her work has appeared in Imago Mundi, Journal of the Early Book Society, Dark Archives and is forthcoming in Digital Philology, Manuscript Studies in William Blake, and Reading Medieval Maps among others. She and Dr. Heather Wacha have a new digital edition of the Vercelli Map forthcoming using Davies’s MSI data hosted on [Digital Mappa](https://www.digitalmappa.org/)."
-- name: evan-gatti
+  website: "https://www.helendaviesphd.com"
+
+evan-gatti:
   display_name: Evan A. Gatti
   avatar: TeamInAction/EvanInMuseo.jpg
   permalink: author/evan-gatti/
   bio: "Dr. [Evan A. Gatti](http://www.elon.edu/directories/profile/?user=egatti), Professor in Art History at Elon University, specializes in medieval art with a focus on 11th-century art commissioned by bishops in connection and conflict with the Ottonian and Salian Empires. Gatti was the co-editor for [Envisioning the Bishop: Images and the Episcopacy in the Middle Ages](http://www.brepols.net/Pages/ShowProduct.aspx?prod_id=IS-9782503547992-1) with [Sigrid Danielson](http://www.brepols.net/Pages/ShowAuthor.aspx?lid=152644) (Brepols 2014). Gatti and Danielson also co-authored a bibliography on [Art in Italy](https://www.oxfordbibliographies.com/view/document/obo-9780195396584/obo-9780195396584-0120.xml?rskey=pqyH4Q&result=2&q=medieval%20italy%20#firstMatch) for Oxford Bibliographies Online – Medieval Studies (2012). Gatti recently co-authored a book chapter (with [Eliza Garrison](https://www.middlebury.edu/academics/harc/faculty/node/235031)) on the [Quedlinburg Casket](https://brill.com/display/book/9789004527492/BP000020.xml) for _[A Companion to the Abbey of Quedlinburg in the Middle Ages](https://brill.com/display/title/32442?rskey=RdRbs2&result=1)_ (Brill Publishers, 2022) as well as an article on the [portraits of Sigebert of Minden](https://www.journals.uchicago.edu/doi/10.1086/720747) for [Gesta](https://www.medievalart.org/gesta). Gatti is currently at work on a project concerned with concepts of facsimile and historiography with a focus on the rotulus featuring scenes from the [Acts of the Apostles](https://artsandculture.google.com/asset/scroll-with-acts-of-apostles-local-scriptorium/hQFDHOjLkYNUZg) held in the [Archivio Capitolare in Vercell](http://tesorodelduomovc.it/biblioteca-archivio-capitolare/)i with Videntes: A Multispectral Imaging Collective. Gatti is a founding member and former president of [EPISCOPUS: The Society for the Study of Bishops & the Secular Clergy in the Middle Ages](http://episcopus.org/) and works closely with the [Power of the Bishop Conference](http://powerofthebishop.blogspot.com/) and is co-editing their recent conference proceedings."
-- name: heather-wacha
+  website: "http://www.elon.edu/directories/profile/?user=egatti"
+
+heather-wacha:
   display_name: Heather Wacha
   avatar: TeamInAction/heather_lookingatms-edited.jpg
   permalink: author/heather-wacha/
   bio: "Dr. Heather Wacha is an Honorary Research Fellow at the University of Wisconsin, Madison, where she works with Martin Foys as senior co-editor of the [Virtual Mappa](https://sims2.digitalmappa.org/36) project, a digital platform for fully annotated and edited medieval mappae mundi, hosted by [Digital Mappa](http://digitalmappa.org/). Her research focuses on the material analysis of medieval manuscripts and mappae mundi. She is co-author of [_Intermediate Horizons: Book History and Digital Humanities_](https://uwpress.wisc.edu/books/5809.htm) and [_The_ _Cartulary of Prémontré: A Dual Print and Digital Edition_](https://utorontopress.com/search-results/?keyword=cartulary+of+premontre)  (July 2023). In collaboration with Dr. Helen Davies, she is currently working on a digital edition of the Vercelli Map, which will be published in Virtual Mappa."
-- name: katie-albers-morris
+  website: "https://hgwacha.wordpress.com"
+
+katie-albers-morris:
   display_name: Katie Albers-Morris
   avatar: Headshots/KatieAlbersMorris.jpg
   permalink: author/heather-wacha/
   bio: "Dr. Katie Albers-Morris is an Assistant Professor in English at the Rochester Institute of Technology. She recently finished her PhD at the University of Rochester, after defending her dissertation titled _Experiencing Arab-Norman Palermo: Close Reading Cultural Heritage in 2D and 3D._ She is a project coordinator for the [Lazarus Project](https://lazarusprojectimaging.com/), helping to facilitate projects and image processing. In 2022, Albers-Morris became the coordinator of [R-CHIVE](https://r-chive.com/), organizing speakers and meetings as well as upcoming conferences. She has recently been part of a team of historians documenting St. George’s, Bermuda under [The Smith’s Island Archaeology Project](http://smithsislandarchaeology.blogspot.com/) and is currently helping to develop a virtual heritage tour as part of the NEH grant “Black Past Lives Matter: Digital Kormantin”."
-- name: kalani-craig
+  website: "https://www.rit.edu/directory/camgsh-catherine-albers-morris"
+
+kalani-craig:
   display_name: Kalani Craig
   avatar: Headshots/KalaniCraig.jpg
   permalink: author/kalani-craig/
-  bio: "Dr. Kalani Craig is an Associate Professor of History at the University of Illinois Urbana-Champaign and specializes in writing history and codes tools for digital historians. Craig designs digital tools and platforms that shape new historical methods and help scholars undertake collaborative research, and model ways to engage the public using those tools. In 2024, Craig created and published [DigitalArc Platform](https://digitalarcplatform.github.io) with a team of scholars and community partners to provide a tool-kit and minimal-computing website platform for community-owned storytelling and digital archiving. From 2017 to 2025, Craig was on the faculty in the Department of History at Indiana University Bloomington, where, from 2017 to 2024, she served as Co-Director of the Institute for Digital Arts and Humanities. Craig authored “Bishops and Balancing Acts: Divine and Human Agency in Gregory of Tours’ Vision of Episcopal Authority,” in _Envisioning the Bishop: Images and the Episcopacy in the Middle Ages_, edited by Sigrid Danielson and Evan Gatti (Brepols, 2014). Most recently, she co-authored “The Coded Language of Empire: Digital History, Archival Deep-Dives and US Imperialism in Cuba’s Third War of Independence,” in _American Historical Review_ (June 2024)."
+  bio: "Dr. Kalani Craig is an Associate Professor of History at the University of Illinois Urbana-Champaign and specializes in writing history and codes tools for digital historians. Craig designs digital tools and platforms that shape new historical methods and help scholars undertake collaborative research, and model ways to engage the public using those tools. In 2024, Craig created and published [DigitalArc Platform](https://digitalarcplatform.github.io) with a team of scholars and community partners to provide a tool-kit and minimal-computing website platform for community-owned storytelling and digital archiving. From 2017 to 2025, Craig was on the faculty in the Department of History at Indiana University Bloomington, where, from 2017 to 2024, she served as Co-Director of the Institute for Digital Arts and Humanities. Craig authored “Bishops and Balancing Acts: Divine and Human Agency in Gregory of Tours’ Vision of Episcopal Authority,” in _Envisioning the Bishop: Images and the Episcopacy in the Middle Ages_, edited by Sigrid Danielson and Evan Gatti (Brepols, 2014). Most recently, she co-authored “[The Coded Language of Empire: Digital History, Archival Deep-Dives and US Imperialism in Cuba’s Third War of Independence](https://doi.org/10.1093/ahr/rhae179)” in _American Historical Review_ (June 2024)."
+  website: "https://www.kalanicraig.com"
 
 

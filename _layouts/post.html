@@ -6,7 +6,7 @@ format: post
 <div class="darkbg">
 <div class="grid-container">
 <h4 class="center">News & Updates</h4>
-<h1 class="sans center">{{post.title}}</h1>
+<h1 class="sans center">{{page.title}}</h1>
 </div>
 </div>
 
@@ -14,8 +14,8 @@ format: post
 	<div class="grid-x grid-padding-x">
 		<div class="large-12 cell">
 
-				  {% if post.image %}<img class="article-image float-right thumbnail" src="{{ site.baseurl }}{{ site.urlimg }}{{post.image}}">{% endif %}
-				{{post.author}}
+				  {% if page.image %}<img class="article-image float-right thumbnail" src="{{ site.baseurl }}{{ site.urlimg }}{{page.image}}">{% endif %}
+				{{page.author}}
 				<!--page start-->
 				{{ content }}
 				<!--page end-->

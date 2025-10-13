@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Modeling Manuscript Bindings for Teaching and 3D Construction
-date: 2025-07-11
-excerpt: Katie Albers-Morris and Evan Gatti led a talk during the Digital Approaches to Materiality of Manuscripts, I: Classrooms session at the 2025 IMC Leeds.
+date: "2025-07-11 02:00:00"
+excerpt: "Katie Albers-Morris and Evan Gatti led a talk during the Digital Approaches to Materiality of Manuscripts, I: Classrooms session at the 2025 IMC Leeds."
 author: katie-albers-morris
 ---
 
