@@ -1,9 +1,15 @@
 ---
 layout: post
-title: Modeling Manuscript Bindings for Teaching and 3D Construction
-date: "2025-07-11 02:00:00"
-excerpt: "Katie Albers-Morris and Evan Gatti led a talk during the Digital Approaches to Materiality of Manuscripts, I: Classrooms session at the 2025 IMC Leeds."
-author: katie-albers-morris
+title: "2025 DMSI Workshop at IMC Leeds 'Seeing Beyond: Practical and Low-Cost Multispectral Imaging'"
+excerpt: "Helen Davies, Katie Albers-Morris, Alex Zawacki, and Evan Gatti led an MSI workshop at the 2025 Digital Medieval Studies Institute following the IMC Leeds."
+author: helen-davies
 ---
 
-Katie Albers-Morris and Evan Gatti led a talk during the Digital Approaches to Materiality of Manuscripts, I: Classrooms session at the 2025 IMC Leeds. During this presentation Katie and Evan discussed how the Videntes team organized and held the 2024 Medieval Manuscripts in a Modern World DH institute in Vercelli. This included explaining the process of collaboration between Videntes and the Museo del Tesoro del Duomo and the Archivio Capitolare di Vercelli, and the different skills targeted by daily sessions.
+*   ![](https://videntesmsi.com/wp-content/uploads/2025/07/img_4524.jpg?w=840)
+    
+*   ![](https://videntesmsi.com/wp-content/uploads/2025/07/img_4522.jpg)
+    
+*   ![](https://videntesmsi.com/wp-content/uploads/2025/07/img_4523-edited.jpg?w=1024)
+    
+
+Helen Davies, Katie Albers-Morris, Alex Zawacki, and Evan Gatti led an MSI workshop at the 2025 Digital Medieval Studies Institute following the IMC Leeds. This workshop introduced different levels of MSI capturing and processing, ranging from the more high-end systems to more affordable and portable systems like the MISHA, or Ghost Camera. Attendees also had the opportunity to learn how to use accessible processing systems like Hoku and r-Chive.

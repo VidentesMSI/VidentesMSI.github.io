@@ -42,6 +42,22 @@
 	}
 
 	.biophoto {
+		margin: 0 0 0 1rem;
 		float:right;
 		width:300px;
 	}
+
+	.post-main-content {
+		margin-top:1rem;
+	}
+
+	figure {
+		border:1px dotted lighten($main-link, 45%);
+		padding:1rem;
+		text-align: center;
+	}
+
+	.inset {
+		margin:1rem 4rem 1rem 4rem;
+	}
+
