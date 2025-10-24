@@ -4,6 +4,7 @@ title: "A toolkit for Illuminating the Past: A Multispectral Imaging and Cultura
 excerpt: "A new MSI tool-kit project developed by Helen Davies with Prof. Larry Eames and Evangela Dudeck through the Center for Research Frontiers in the Digital Humanities at UCCS is now available online!"
 author: helen-davies
 externalurl: "https://grants.uccs.edu/illuminating-the-past/"
+categories: [ "Publications","Grants and Awards" ]
 ---
 
 ![](https://videntesmsi.com/wp-content/uploads/2025/07/screen-shot-2025-07-07-at-11.30.41-pm.png?w=1024)

@@ -3,6 +3,8 @@ layout: post
 title: Sourcing the Vercelli Map
 excerpt: "Dr. Helen Davies and Dr. Heather Wacha have been working on completing a digital edition of the damaged Vercelli map, including transcriptions, translations, and notes. "
 author: helen-davies
+credits: "Dr. Helen Davies and Katie Albers-Morris"
+categories: [ "Vercelli Scrolls" ]
 ---
 
 Lately, we’ve been putting some final touches on the Vercelli map’s sources. The Vercelli map was once clearly visible to the naked eye but has sustained much damage since its creation in the 13th century. Today certain parts of the map are missing and other areas are simply no longer legible. MSI has brought back much of the original content of the map and Dr. Helen Davies and Dr. Heather Wacha have been working on completing a digital edition, including transcriptions, translations, and notes. 

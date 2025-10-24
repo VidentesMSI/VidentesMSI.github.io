@@ -3,6 +3,7 @@ layout: post
 title: "Videntes Hosted Medieval Manuscripts in a Modern World, a Digital Humanities Institute, in Vercelli"
 excerpt: "*Videntes* recently held the first Digital Humanities Institute in Vercelli. In collaboration with the *Museum Del Tesoro e Archivio Capitolare*"
 author: evan-gatti
+categories: [ "Events" ]
 ---
 
 ## 

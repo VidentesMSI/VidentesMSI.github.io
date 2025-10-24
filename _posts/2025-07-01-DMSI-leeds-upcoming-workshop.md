@@ -3,6 +3,7 @@ layout: post
 title: "Announcing 'Seeing Beyond: Practical and Low-Cost Multispectral Imaging' Workshop at DMSI 2025"
 excerpt: "Helen Davies will be leading the “Seeing Beyond: Practical and Low-Cost Multispectral Imaging” workshop at the International Medieval Congress in Leeds’ Digital Medieval Studies Institute on July 11, 2025."
 author: helen-davies
+categories: [ "Events" ]
 ---
 
 

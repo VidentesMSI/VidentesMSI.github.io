@@ -4,6 +4,7 @@ title: "Publication: 'The Apostles’ Roll and the didactic parchments of the Ca
 excerpt: "The _Videntes_ team has published an article together in a special issue of _Arte Cristiana_ 944."
 author: helen-davies
 externalurl: "https://www.academia.edu/128011640/The_Apostles_Roll_and_the_didactic_parchments"
+categories: [ "Publications", "Vercelli Scrolls" ]
 ---
 
 ## 

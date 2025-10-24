@@ -3,7 +3,9 @@ layout: post
 title: "Vercelli Map Published in Virtual Mappa Project"
 excerpt: "The _Virtual Mappa_ project now holds the publication of the badly-damaged thirteenth-century Vercelli Map."
 author: heather-wacha
+credits: "Dr. Helen Davies and Katie Albers-Morris"
 externalurl: "https://sims2.digitalmappa.org/36"
+categories: [ "Vercelli Scrolls" ]
 ---
 
 ### Vercelli Map Published in Virtual Mappa Project
