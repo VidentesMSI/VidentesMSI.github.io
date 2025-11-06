@@ -14,10 +14,10 @@ The [Virtual Mappa](https://sims2.digitalmappa.org/36) project now holds the pub
 
 <figure class="inset" markdown=1>
 ![Marked-up Mappa Mundi screen capture from Virtual Mappa project]({{ site.urlimg }}MappaMundi/MapMarkedUp.png)
-<figcaption>Vercelli Map zoomed out. Blue annotations are complete. White ones will be done Summer 2024. Green have been outlined but left blank by the mapmaker.</figcaption>
+<figcaption>Vercelli Map zoomed out. Blue annotations are complete. White ones will be done Summer 2026. Green have been outlined but left blank by the mapmaker.</figcaption>
 </figure>
 
-Each inscription contains an annotation with a diplomatic transcription, a normalized transcription, an English translation, and relevant notes. These are the inscriptions that appear in blue on the MSI map. Those in white will be complete Summer 2024.
+Each inscription contains an annotation with a diplomatic transcription, a normalized transcription, an English translation, and relevant notes. These are the inscriptions that appear in blue on the MSI map. Those in white will be complete Summer 2026.
 
 <figure class="inset"  markdown=1>
 ![Screen capture of Lesbos Island detail from Virtual Mappa project]({{ site.urlimg }}MappaMundi/VirtualMappaScreenCap.png)
