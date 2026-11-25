@@ -1,0 +1,40 @@
+---
+layout: default
+format: post
+---
+
+<div class="darkbg">
+<div class="grid-container">
+<h1 class="center">News & Updates</h1>
+<h2 class="sans center">{{page.title | markdownify }}</h2>
+</div>
+</div>
+
+<div class="grid-container">
+	<div class="grid-x grid-padding-x">
+		<div class="large-12 cell">
+
+					<div class="post-meta text-center">
+					{% if page.author %}
+					{% assign author_key = page.author %}
+					{% assign author = site.data.authors[author_key] %}
+					<span class="meta">	
+					<span class="meta-icon fa fa-user-circle-o" aria-hidden="true">&nbsp;</span>{% if author.website %}<a class="meta-text" href="{{ author.website }}" target="_blank">{%endif%}{{ author.display_name }}{% if author.website %}</a>{% endif %}</span>
+					{% endif %}
+					<span class="meta"><span class="meta-icon fa fa-clock-o" aria-hidden="true">&nbsp;</span><span class="meta-text">{{ page.date | date: "%d %B %Y"}}</span></span>
+
+				</div>
+
+				{% if page.image %}<img class="article-image float-right" src="{{ site.baseurl }}{{ site.urlimg }}{{page.image}}">{% endif %}
+
+				<div class="post-main-content">
+				<!--page start-->
+				{{ content }}
+				<!--page end-->
+				</div>
+
+
+		</div>
+	</div>
+</div>
+

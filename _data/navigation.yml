@@ -1,0 +1,26 @@
+# Site navigation links
+
+- title: Videntes MSI
+  url: /
+  excerpt:
+  image:
+
+- title: About
+  url: /about
+  excerpt:
+  image:
+
+- title: News & Publications
+  url: /news
+  excerpt:
+  image:
+
+- title: Workshops & Events
+  url: /events
+  excerpt:
+  image:
+
+- title: Vercelli
+  url: /vercelli
+  excerpt:
+  image:

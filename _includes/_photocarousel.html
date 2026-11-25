@@ -1,0 +1,9 @@
+
+<li class="orbit-slide" data-slide="{{ include.n }}"{%- if include.n == 0 %} is-active{% endif %}{%- unless include.n == 0 %} style="display: none;"{% endunless %}>
+  <figure class="orbit-figure">
+    <img class="orbit-image"
+         src="{{ site.urlimg }}{{ include.img }}"
+         alt="{{ include.alt }}">
+    <figcaption class="orbit-caption">{{ include.alt }}</figcaption>
+  </figure>
+</li>
