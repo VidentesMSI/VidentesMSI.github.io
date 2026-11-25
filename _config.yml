@@ -196,4 +196,5 @@ sass:
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-remote-theme
   
