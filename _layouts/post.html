@@ -94,6 +94,14 @@ format: post
       <!-- Main Content -->
       <div class="post-main-content">
         {{ content }}
+        <!-- Place this right after {{ content }} in your post layout -->
+			{% if page.link != null and page.link != "" %}
+			  <div class="post-cta margin-top-large text-center">
+				 <a href="{{ page.link }}" class="button expanded" target="_blank" rel="noopener noreferrer">
+					For More Information →
+				 </a>
+			  </div>
+			{% endif %}
       </div>
 
     </div>

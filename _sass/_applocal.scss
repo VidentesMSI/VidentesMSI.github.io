@@ -120,3 +120,25 @@
     max-width: 100%;
   }
 }
+
+.button {
+	border: 2px solid $dark-bg;
+	  border-radius: 5px;
+	  padding: 4px 12px;
+	  font-size: 14px;
+	  cursor: pointer;
+	  transition: background-color 0.3s ease;
+	  align-items: center; /* Center button text vertically */
+	  background-color: $main-bg;
+	  color: $main-text-color;
+        transition: background-color 0.3s ease;
+        align-items: center; /* Center button text vertically */
+  }
+
+.button:hover {
+	border-color: $dark-link-hover;
+ }
+
+.button.active {
+	background-color: lighten($dark-link, 15%);
+ }
