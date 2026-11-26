@@ -2,6 +2,10 @@
 layout: post
 title: "2025 DMSI Workshop at IMC Leeds 'Seeing Beyond: Practical and Low-Cost Multispectral Imaging'"
 excerpt: "Helen Davies, Katie Albers-Morris, Alex Zawacki, and Evan Gatti led an MSI workshop at the 2025 Digital Medieval Studies Institute following the IMC Leeds."
+image:
+  src: "img_4523-edited.jpg"       # Local OR external URL
+  caption: "Caroline Szylowicz, the Kolb-Proust librarian at Illinois and a curator of rare books and manuscripts, works with Katie Albers-Morris of Rochester Institute of Technology, left, and Helen Davies of the University of North Carolina at Charlotte, center, to position a manuscript for imaging." # Shown on single/post page
+  credit: ""            # Shown in list or post view
 author: helen-davies
 categories: [ "Events" ]
 ---
