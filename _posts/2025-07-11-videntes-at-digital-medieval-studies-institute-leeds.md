@@ -6,6 +6,7 @@ image:
   src: "img_4523-edited.jpg"       # Local OR external URL
   caption: "Helen Davies demoes image capture from several different light spectra" # Shown on single/post page
   credit: ""            # Shown in list or post view
+show_featured_image: false
 author: helen-davies
 categories: [ "Events" ]
 ---

@@ -33,8 +33,14 @@
   {% endif %}
 {% endif %}
 
+<!-- Optional: Toggle Featured Image Display -->
+{% assign show_featured_image = true %}
+{% if post.show_featured_image == false or post.hide_feature_image == true %}
+  {% assign show_featured_image = false %}
+{% endif %}
+
 <!-- Right-aligned Image Wrapper with Caption & Credit -->
-{% if image_src != "" %}
+{% if show_featured_image and image_src != "" %}
   <div class="post-img-wrap" style="float: right; width: 50%; margin-left: 1rem; margin-bottom: 1.5rem;">
     <img src="{{ image_src }}" alt="" class="thumbnail" style="width: 100%; height: auto; display: block; border-radius: 4px;">
     

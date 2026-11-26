@@ -36,6 +36,12 @@ format: post
   {% endif %}
 {% endif %}
 
+<!-- Default: Show featured image. Set show_featured_image: false to hide it -->
+{% assign display_feature_image = true %}
+{% if page.show_featured_image == false or page.hide_feature_image == true %}
+  {% assign display_feature_image = false %}
+{% endif %}
+
 <div class="darkbg">
   <div class="grid-container">
     <h1 class="center">News & Updates</h1>
@@ -70,8 +76,8 @@ format: post
         </span>
       </div>
 
-      <!-- Featured Image & Caption/Credit -->
-      {% if image_src != "" %}
+      <!-- Featured Image (Hidden when show_featured_image: false) -->
+      {% if display_feature_image and image_src != "" %}
         <figure class="post-hero-figure margin-bottom-large text-center">
           <img src="{{ image_src }}" alt="{{ page.title | default: 'Featured Image' }}" 
                class="u-size-full" style="border-radius: 4px; max-height: 500px; object-fit: cover;">

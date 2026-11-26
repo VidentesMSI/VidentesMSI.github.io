@@ -1,5 +1,5 @@
 ---
-title: News & Publications
+title: Videntes News & Publications
 layout: page
 permalink: /news-publications/
 ---

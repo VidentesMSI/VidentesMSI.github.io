@@ -1,5 +1,5 @@
 ---
-title: News
+title: Videntes News
 layout: page
 permalink: /news/
 ---
