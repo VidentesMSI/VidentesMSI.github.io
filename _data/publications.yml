@@ -1,35 +1,35 @@
 # _data/publications.yml
-- citation: 'Stam, Nike, Catherine Albers-Morris, Helen Davies, and Gregory Heyworth. "Reading the End of *Fled Bricrenn*: Multispectral Imaging Applied to f. 9v of Leiden MS VLQ 7." *Studia Celtica Fennica* 21, no. 1 (2025): 1–25.'
+- citation: 'Nike Stam, Catherine Albers-Morris, Helen Davies, and Gregory Heyworth. "Reading the End of *Fled Bricrenn*: Multispectral Imaging Applied to f. 9v of Leiden MS VLQ 7." *Studia Celtica Fennica* 21, no. 1 (2025): 1–25.'
   doi: https://doi.org/10.33353/scf.155378
   link:
   date: 2025-05-20
   type: Article
 
-- citation: 'Davies, Helen, Evan A. Gatti, Catherine Albers-Morris, Heather Wacha, and Silvia Faccin. "The Apostles’ Roll and the Didactic Parchments of the Capitular Archive." *Arte Cristiana* 944 (2025): INSERT PAGES.'
+- citation: 'Helen Davies, Evan A. Gatti, Catherine Albers-Morris, Heather Wacha, and Silvia Faccin. "The Apostles’ Roll and the Didactic Parchments of the Capitular Archive." *Arte Cristiana* 944 (2025): INSERT PAGES.'
   doi:
   link: https://www.academia.edu/128011640/The_Apostles_Roll_and_the_didactic_parchments
   date: 2025-03-01
   type: Article
 
-- citation: 'Buncic, Aleksandra, Catherine Albers-Morris, and Gregory Heyworth. "Multispectral Imaging to Recover Lost Text in the Sarajevo Haggadah." *Journal of Cultural Heritage* 67 (2024): 284–89.'
+- citation: 'Aleksandra Buncic, Catherine Albers-Morris, and Gregory Heyworth. "Multispectral Imaging to Recover Lost Text in the Sarajevo Haggadah." *Journal of Cultural Heritage* 67 (2024): 284–89.'
   doi: https://doi.org/10.1016/j.culher.2024.03.015
   link:
   date: 2024-04-02
   type: Article
 
-- citation: 'Zawacki, Alexander J., Kyle Ann Huskin, Helen Davies, Tania Kleynhans, David Messinger, and Gregory Heyworth. "Fragments under the Lens: A Case Study of Multispectral versus Hyperspectral Imaging for Manuscript Recovery." *Digital Philology: A Journal of Medieval Cultures* 12, no. 1 (2023): 123–43.'
+- citation: 'Alexander J. Zawacki, Kyle Ann Huskin, Helen Davies, Tania Kleynhans, David Messinger, and Gregory Heyworth. "Fragments under the Lens: A Case Study of Multispectral versus Hyperspectral Imaging for Manuscript Recovery." *Digital Philology: A Journal of Medieval Cultures* 12, no. 1 (2023): 123–43.'
   doi: https://doi.org/10.1353/dph.2023.0004
   link:
   date: 2023-05-09
   type: Article
 
-- citation: 'Davies, Helen, Katie Albers-Morris, Alex Zawacki, and Evan Gatti. "Seeing Beyond: Practical and Low-Cost Multispectral Imaging." Workshop, Digital Medieval Studies Institute, International Medieval Congress, Leeds, July 11, 2025.'
+- citation: 'Helen Davies, Katie Albers-Morris, Alex Zawacki, and Evan Gatti. "Seeing Beyond: Practical and Low-Cost Multispectral Imaging." Workshop, Digital Medieval Studies Institute, *International Medieval Congress*, Leeds, July 11, 2025.'
   doi:
   link:
   date: 2025-07-11
   type: Workshop
 
-- citation: 'Albers-Morris, Katie, and Evan Gatti. "Modeling Manuscript Bindings for Teaching and 3D Construction." Paper presented at Digital Approaches to Materiality of Manuscripts, I: Classrooms, International Medieval Congress, Leeds, July 10, 2025.'
+- citation: 'Katie Albers-Morris, and Evan Gatti. "Modeling Manuscript Bindings for Teaching and 3D Construction." Paper presented at Digital Approaches to Materiality of Manuscripts, I: Classrooms, *International Medieval Congress*, Leeds, July 10, 2025.'
   doi:
   link:
   date: 2025-07-10
@@ -41,7 +41,7 @@
   date: 2024-06-16
   type: Workshop
 
-- citation: 'Davies, Helen. *Illuminating the Past: A Summer Institute on Multispectral Imaging and Cultural Heritage Preservation*. National Endowment for the Humanities, Office of Digital Humanities. $250,000. 2024.'
+- citation: 'Helen Davies. *Illuminating the Past: A Summer Institute on Multispectral Imaging and Cultural Heritage Preservation*. National Endowment for the Humanities, Office of Digital Humanities. $250,000. 2024.'
   doi:
   link: https://www.neh.gov/blog/announcing-new-odh-awards-august-2024
   date: 2024-09-05
