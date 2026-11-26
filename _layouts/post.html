@@ -3,36 +3,93 @@ layout: default
 format: post
 ---
 
+{% assign img = page.image %}
+{% assign image_src = "" %}
+{% assign image_caption = "" %}
+{% assign image_credit = "" %}
+
+{% if img and img.src %}
+  {% assign raw_src = img.src | replace: ' ', '' %}
+  {% unless raw_src contains "://" %}
+    {% assign raw_src = "/assets/img/posts/" | append: raw_src %}
+  {% endunless %}
+  
+  {% if raw_src contains "://" %}
+    {% assign image_src = raw_src %}
+  {% else %}
+    {% assign image_src = site.baseurl | append: raw_src %}
+  {% endif %}
+
+  {% if img.caption %}{% assign image_caption = img.caption %}{% endif %}
+  {% if img.credit %}{% assign image_credit = img.credit %}{% endif %}
+
+{% elsif page.image and page.image != "" %}
+  {% assign raw_src = page.image | replace: ' ', '' %}
+  {% unless raw_src contains "://" %}
+    {% assign raw_src = "/assets/img/posts/" | append: raw_src %}
+  {% endunless %}
+  
+  {% if raw_src contains "://" %}
+    {% assign image_src = raw_src %}
+  {% else %}
+    {% assign image_src = site.baseurl | append: raw_src %}
+  {% endif %}
+{% endif %}
+
 <div class="darkbg">
+  <div class="grid-container">
+    <h1 class="center">News & Updates</h1>
+    <h2 class="sans center">{{ page.title | markdownify }}</h2>
+  </div>
+</div>
+
 <div class="grid-container">
-<h1 class="center">News & Updates</h1>
-<h2 class="sans center">{{page.title | markdownify }}</h2>
+  <div class="grid-x grid-padding-x">
+    <div class="large-12 cell">
+
+      <!-- Post Metadata -->
+      <div class="post-meta text-center">
+        {% if page.author %}
+          {% assign author_key = page.author %}
+          {% assign author = site.data.authors[author_key] %}
+          {% if author and author.display_name %}
+            <span class="meta">
+              <span class="meta-icon fa fa-user-circle-o" aria-hidden="true">&nbsp;</span>
+              {% if author.website %}
+                <a class="meta-text" href="{{ author.website }}" target="_blank">{{ author.display_name }}</a>
+              {% else %}
+                {{ author.display_name }}
+              {% endif %}
+            </span>
+          {% endif %}
+        {% endif %}
+
+        <span class="meta">
+          <span class="meta-icon fa fa-clock-o" aria-hidden="true">&nbsp;</span>
+          <span class="meta-text">{{ page.date | date: "%d %B %Y" }}</span>
+        </span>
+      </div>
+
+      <!-- Featured Image & Caption/Credit -->
+      {% if image_src != "" %}
+        <figure class="post-hero-figure margin-bottom-large text-center">
+          <img src="{{ image_src }}" alt="{{ page.title | default: 'Featured Image' }}" 
+               class="u-size-full" style="border-radius: 4px; max-height: 500px; object-fit: cover;">
+          
+          {% if image_caption != "" or image_credit != "" %}
+            <figcaption class="text-small text-muted margin-top-small">
+              {% if image_caption %}<p>{{ image_caption }}</p>{% endif %}
+              {% if image_credit %}<p style="font-style: italic;">📷 {{ image_credit }}</p>{% endif %}
+            </figcaption>
+          {% endif %}
+        </figure>
+      {% endif %}
+
+      <!-- Main Content -->
+      <div class="post-main-content">
+        {{ content }}
+      </div>
+
+    </div>
+  </div>
 </div>
-</div>
-
-<div class="grid-container">
-	<div class="grid-x grid-padding-x">
-		<div class="large-12 cell">
-
-					<div class="post-meta text-center">
-					{% if page.author %}
-					{% assign author_key = page.author %}
-					{% assign author = site.data.authors[author_key] %}
-					<span class="meta">	
-					<span class="meta-icon fa fa-user-circle-o" aria-hidden="true">&nbsp;</span>{% if author.website %}<a class="meta-text" href="{{ author.website }}" target="_blank">{%endif%}{{ author.display_name }}{% if author.website %}</a>{% endif %}</span>
-					{% endif %}
-					<span class="meta"><span class="meta-icon fa fa-clock-o" aria-hidden="true">&nbsp;</span><span class="meta-text">{{ page.date | date: "%d %B %Y"}}</span></span>
-
-				</div>
-
-				<div class="post-main-content">
-				<!--page start-->
-				{{ content }}
-				<!--page end-->
-				</div>
-
-
-		</div>
-	</div>
-</div>
-

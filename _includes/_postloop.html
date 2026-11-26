@@ -1,22 +1,74 @@
-{% if post.image %}
-<img class="thumbnail" src="{{ site.baseurl }}{{ site.urlimg }}{{ post.image }}" alt="">
+{% assign img = post.image %}
+{% assign image_src = "" %}
+{% assign image_caption = "" %}
+{% assign image_credit = "" %}
+
+{% if img and img.src %}
+  {% assign raw_src = img.src | replace_first: ' ', '' %}
+  {% assign resolved_src = raw_src %}
+  {% unless raw_src contains "://" %}
+    {% assign resolved_src = "/assets/img/posts/" | append: raw_src %}
+  {% endunless %}
+  
+  {% if resolved_src contains "://" %}
+    {% assign image_src = resolved_src %}
+  {% else %}
+    {% assign image_src = site.baseurl | append: resolved_src %}
+  {% endif %}
+
+  {% if img.caption %}{% assign image_caption = img.caption %}{% endif %}
+  {% if img.credit %}{% assign image_credit = img.credit %}{% endif %}
+
+{% elsif post.image and post.image != "" %}
+  {% assign raw_src = post.image | replace_first: ' ', '' %}
+  {% assign resolved_src = raw_src %}
+  {% unless resolved_src contains "://" %}
+    {% assign resolved_src = "/assets/img/posts/" | append: raw_src %}
+  {% endunless %}
+  
+  {% if resolved_src contains "://" %}
+    {% assign image_src = resolved_src %}
+  {% else %}
+    {% assign image_src = site.baseurl | append: resolved_src %}
+  {% endif %}
 {% endif %}
+
+<!-- Right-aligned Image Wrapper with Caption & Credit -->
+{% if image_src != "" %}
+  <div class="post-img-wrap" style="float: right; width: 50%; margin-left: 1rem; margin-bottom: 1.5rem;">
+    <img src="{{ image_src }}" alt="" class="thumbnail" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+    
+    {% if image_caption != "" or image_credit != "" %}
+      <div class="post-img-caption text-small">
+        {% if image_caption %}
+          <p>{{ image_caption }}</p>
+        {% endif %}
+        
+        {% if image_credit != "" %}
+          <p style="margin-top: 0.25rem; font-style: italic; color: #868e96;">📷 {{ image_credit }}</p>
+        {% endif %}
+      </div>
+    {% endif %}
+  </div>
+{% endif %}
+
+<!-- Post Content (Flows Around Image) -->
 <a href="{{ site.baseurl }}{{ post.url }}">
-<h2>{{ post.title | markdownify }}</h2></a>
-<div>
-{% if post.author %}
-{% assign author_key = post.author %}
-{% assign author = site.data.authors[author_key] %}
-<span class="meta-icon fa fa-user-circle-o" aria-hidden="true">&nbsp;</span>{% if author.website %}<a class="meta-text" href="{{ author.website }}" target="_blank">{%endif%}{{ author.display_name }}{% if author.website %}</a>{% endif %}</span>
-{% endif %}
-<span class="meta"><span class="meta-icon fa fa-clock-o" aria-hidden="true">&nbsp;</span><span class="meta-text">{{ post.date | date: "%d %B %Y"}}</span></span>
+  <h2>{{ post.title | markdownify }}</h2>
+</a>
+
+<div class="post-meta">
+  {% if post.author %}
+    {% assign author_key = post.author %}
+    {% assign author = site.data.authors[author_key] %}
+    <span class="meta-icon fa fa-user-circle-o" aria-hidden="true">&nbsp;</span>{% if author.website %}<a class="meta-text" href="{{ author.website }}" target="_blank">{% endif %}{{ author.display_name }}{% if author.website %}</a>{% endif %}</span>
+  {% endif %}
+  <span class="meta"><span class="meta-icon fa fa-clock-o" aria-hidden="true">&nbsp;</span><span class="meta-text">{{ post.date | date: "%d %B %Y"}}</span></span>
 </div>
-<div>
-{% if post.image %}
-<p>{{ post.excerpt | markdownify }}
-{% endif %}
 
-{{ post.content | markdownify }} 
-
-</p>
+<div class="post-body">
+  {% if post.excerpt %}
+    <p>{{ post.excerpt | markdownify }}</p>
+  {% endif %}
+  {{ post.content | markdownify }} 
 </div>

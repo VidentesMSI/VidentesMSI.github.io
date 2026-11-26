@@ -92,3 +92,31 @@
   border-radius: 4px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
+
+.post-image-wrapper img.thumbnail {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: cover;       /* Crop to square/rectangle without stretching */
+  border-radius: 4px;
+}
+
+.post-image-wrapper figcaption,
+.image-credit {
+  font-size: 0.85rem;
+  color: #6c757d;
+  margin-top: 0.25rem;
+}
+
+@media (max-width: 39rem) {
+  .post-img-wrap {
+    float: none !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-bottom: 1.5rem !important;
+    text-align: center;
+  }
+  .post-img-caption p {
+    max-width: 100%;
+  }
+}

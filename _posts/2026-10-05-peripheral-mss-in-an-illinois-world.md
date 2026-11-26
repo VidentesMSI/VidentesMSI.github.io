@@ -11,7 +11,7 @@ image:
 link: https://news.illinois.edu/digital-imaging-workshop-aims-to-reveal-secrets-in-medieval-manuscripts/
 ---
 
-We were thrilled to welcome members of the **Videntes Collective** to Champaign for a special Multispectral Imaging (MSI) workshop titled *"Peripheral MSS in an Illinois World."* This hands-on event brought together scholars, archivists, and digital humanists to explore practical, accessible approaches to imaging manuscripts from the margins of traditional canons.
+The [Rare Book and Manuscript Library](https://www.library.illinois.edu/rbx/) team at University of Illinois Urbana-Champaign, along with Kalani Craig, welcomed members of the **Videntes Collective** and **[Peripheral Manuscripts](https://peripheralmss.org)** teams, and [Warren Brown](https://www.library.illinois.edu/rbx/) (Professor of History, Caltech), to Champaign for a special Multispectral Imaging (MSI) workshop titled *"Peripheral MSS in an Illinois World."* This hands-on event brought together scholars, archivists, and digital humanists to explore practical, accessible approaches to imaging manuscripts from the margins of traditional canons.
 
 Over the course of the workshop, participants learned the fundamentals of multispectral capture, spectral image processing, and comparative visualization techniques.
 
